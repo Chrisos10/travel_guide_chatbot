@@ -1,6 +1,8 @@
+huggingface_hub==0.25.2
 pycodestyle==2.12.1
-gradio
-transformers
-torch
 pandas
 sentencepiece
+nltk>=3.8.0
+torch>=2.0.0
+transformers>=4.30.0
+gradio>=3.40.0
