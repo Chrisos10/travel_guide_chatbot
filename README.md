@@ -14,7 +14,7 @@ I fine-tuned a **T5-small** model using the [Bitext Travel LLM Chatbot Dataset](
 ---
 Acess the chatbot Interface here: https://huggingface.co/spaces/chrisostome/travel_guide_chatbot
 
-Or the demo video here:
+Or the demo video here: https://drive.google.com/file/d/1_A1-UX4UQdt4wuq3ddtzanIRvK3daT7K/view?usp=sharing
 
 ## Implementation Steps
 
