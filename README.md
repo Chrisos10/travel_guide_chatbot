@@ -10,8 +10,8 @@ With its interactive interface built using **Gradio**, users can ask open-ended 
 
 As global travel increases, there is a growing demand for automated assistants that can help users with detailed travel logistics at any hour. 
 I fine-tuned a **T5-small** model using the [Bitext Travel LLM Chatbot Dataset](https://huggingface.co/datasets/bitext/Bitext-travel-llm-chatbot-training-dataset) and achieved strong semantic performance through structured training, evaluation, and deployment.
+
 ---
-##
 Acess the chatbot Interface here: https://huggingface.co/spaces/chrisostome/travel_guide_chatbot
 
 Or the demo video here:
@@ -21,12 +21,12 @@ Or the demo video here:
 ### 1. Dataset Acquisition
 
 - Used the **Bitext Travel LLM Chatbot Dataset** containing:
-  - User instructions
+  - User querries
   - Associated intents
   - Ideal travel support responses
 
 This dataset was explored to understand further how it is structured including analyzing the intents in the dataset and other basic EDA steps.
-![Dataset Intents Variety](Intent_plot.jpg)
+![Dataset Intents Variety](./images/Intent_plot.jpg)
 
 ---
 
@@ -56,7 +56,9 @@ This dataset was explored to understand further how it is structured including a
 | Eval Strategy    | Per Epoch    |
 
 - After the initial training, a second fine-tuning phase was conducted using a higher learning rate (5e-5), which helped reduce the validation loss significantly.
-![Loss Variations Before And After Finetuning With A higher Learning Rate](loss_plot.jpg)
+
+#### Loss Variations Before And After Finetuning With A higher Learning Rate
+![Loss Variations Before And After Finetuning With A higher Learning Rate](./images/loss_plot.jpg)
 ---
 
 ### 4. Results & Evaluation
@@ -73,8 +75,11 @@ The model was evaluated using the following evaluation metrics.
 
 #### Qualitative Examples:
 
-![Querry 1](./Querry_example1.png)
-![Querry 2](./Querry_example2.png)
+#### Querry 1
+![Querry 1](./images/Querry_example1.png)
+
+#### Querry 2
+![Querry 2](./images/Querry_example2.png)
 
 These responses reflect fluency, relevance, and semantic understanding.
 
