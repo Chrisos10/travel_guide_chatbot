@@ -1,0 +1,5 @@
+pycodestyle==2.12.1
+gradio
+transformers
+torch
+pandas
